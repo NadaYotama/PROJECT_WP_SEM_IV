@@ -1,0 +1,89 @@
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background-image: url("{{ asset('assets/images/home1.jpeg') }}");   
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn-danger {
+    background-color: #FF9900;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-section .btn-danger:hover {
+    background-color: #e68900;
+}
+
+/* Highlight Section */
+.highlight-section {
+    background-color: #fff5e0;
+    padding: 50px 0;
+}
+
+.highlight-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.highlight-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.highlight-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.highlight-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta-section .btn-success {
+    background-color: #25d366;
+    color: white;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.cta-section .btn-success:hover {
+    background-color: #128c7e;
+}
